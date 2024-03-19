@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "node-sass": "^9.0.0"
+  },
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://Omar-2003073.github.io/modern-portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Md Omar Faruk",
+  "license": "ISC",
+  "description": "Responsive Portfolio Website"
+}
